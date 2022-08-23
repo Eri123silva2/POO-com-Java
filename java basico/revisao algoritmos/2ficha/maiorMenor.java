@@ -8,7 +8,7 @@ public class maiorMenor {
         int [] array = new int [100];
 
         maior = array[0];
-        menor = 100;
+        menor =  array.length -1;
 
 
         for(int i = 0; i < array.length; i++) {
